@@ -68,7 +68,7 @@ def main():
     print("hcv_ns5b_curated calculating molecular fingerprints using padelpy")    
 
     project_folder_path = r"your_folder_path"
-    substructure_file_path = os.path.join(project_folder_path, "hcv_ns5b_substructure_final.csv")
+    substructure_file_path = os.path.join(project_folder_path, "hcv_ns5b_substructure_final_smote.csv")
     df_substructure = pd.read_csv(substructure_file_path)
     df_substructure.info()
     print(df_substructure)
